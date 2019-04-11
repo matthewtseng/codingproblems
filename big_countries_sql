@@ -1,3 +1,5 @@
+LeetCode - Big Countries
+
 There is a table World
 
 +-----------------+------------+------------+--------------+---------------+
@@ -9,6 +11,7 @@ There is a table World
 | Andorra         | Europe     | 468        | 78115        | 3712000       |
 | Angola          | Africa     | 1246700    | 20609294     | 100990000     |
 +-----------------+------------+------------+--------------+---------------+
+
 A country is big if it has an area of bigger than 3 million square km or a population of more than 25 million.
 
 Write a SQL solution to output big countries' name, population and area.
@@ -25,4 +28,4 @@ For example, according to the above table, we should output:
 # Write your MySQL query statement below
 Select name, population, area
 From World
-Where area > 3000000 or population > 25000000
+Where area > 3000000 or population > 25000000;
